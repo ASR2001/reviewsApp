@@ -1,0 +1,40 @@
+.bg-container {
+  min-height: 100vh;
+  background-image: url(https://assets.ccbp.in/frontend/react-js/reviews-bg.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: white;
+}
+.carousel-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+.button {
+  border: 0px;
+  outline: 0px;
+  background-color: transparent;
+}
+.review-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.person-name {
+  color: white;
+  font-size: 22px;
+}
+.company {
+  color: #171f46;
+  font-size: 18px;
+}
+.description {
+  color: #171f46;
+  font-size: 14px;
+  text-align: center;
+}
